@@ -1,0 +1,20 @@
+<html>
+  <body>
+    <div align="center">
+      <h1>Object State Manager</h1>
+      <form action="/osm/object_log/upload" method="post" enctype='multipart/form-data' >
+        <input type='file' name='file'> </input>
+        <br/>
+        <br/>
+        <input type='submit' value='Upload!'></input>
+      </form>
+      <% unless success_msg.blank? %>
+      <p style="color:green;"><%= success_msg %><p/>
+      <p>Click <a href="/search">here</a> to search object states.</p>
+      <%end%>
+      <% unless err_msg.blank? %>
+        <p style="color:red;"><%= err_msg %><p/>
+      <% end %>
+  </div>
+  </body>
+</html>

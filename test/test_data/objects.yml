@@ -1,0 +1,3 @@
+classes:
+   ObjectA: [id, property1, property2, property3]
+   ObjectB: [id, property1, property2, property3]

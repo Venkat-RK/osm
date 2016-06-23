@@ -1,0 +1,5 @@
+1,ObjectA,412351252,{property1: "value1", property3: "value2" }
+1,ObjectB,456662343,{property1: "another value1" }
+1,ObjectA,467765765,{property1: "altered value1", property2: "random value2" }
+2,ObjectA,451232123,{property2: "some value2" }
+1,ObjectC,451232128,{property3: "some value3" }

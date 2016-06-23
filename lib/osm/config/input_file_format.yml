@@ -1,0 +1,6 @@
+fields_seperator: ','
+fields:
+  0: object_id
+  1: object_type
+  2: timestamp
+  3: object_changes

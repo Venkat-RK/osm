@@ -1,0 +1,35 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require 'sinatra'
+
+# otherwise sinatra won't always automagically launch its embedded
+# http server when this script is executed
+set :run, true
+
+require_relative 'osm_worker'
+
+require 'sidekiq/api'
+require 'fileutils'
+
+require_relative 'helpers'
+
+get '/' do
+  erb :upload
+end
+
+post '/osm/object_log/upload' do
+  upload
+  erb :upload
+end
+
+get '/search' do
+  search
+  erb :search
+end
+
+post '/osm/search' do
+  redirect to("/search?#{read_search_query}")
+end
+
+

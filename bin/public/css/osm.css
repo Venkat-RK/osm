@@ -1,0 +1,9 @@
+body { background-color: #fefefe; padding-left: 2%; padding-bottom: 100px; color: #101010; }
+footer{ font-size:small;position:fixed;right:5px;bottom:5px; }
+a:link, a:visited  { color: #0000ee; }
+pre{ background-color: #eeeeee; margin-left: 1%; margin-right: 2%; padding: 2% 2% 2% 5%; }
+p { font-size: 0.9rem; }
+ul { font-size: 0.9rem; }
+hr { border: 2px solid #eeeeee; margin: 2% 0% 2% -3%; }
+h3 { border-bottom: 2px solid #eeeeee; margin: 2rem 0 2rem -1%; padding-left: 1%; padding-bottom: 0.1em; }
+h4 { border-bottom: 1px solid #eeeeee; margin-top: 2rem; margin-left: -1%; padding-left: 1%; padding-bottom: 0.1em; 
